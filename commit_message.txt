@@ -1,1 +1,7 @@
-Initial commit
+Add profile image and enhance website design
+
+- Added user profile image to the about section and stage section
+- Enhanced about-image styling with improved shadow effects and hover animations
+- Improved stage-item styling with better background handling and visual effects
+- Optimized image display with proper sizing and positioning
+- Added gradient overlays for visual appeal

@@ -11,6 +11,9 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Apple SF Pro Display font -->
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/sf-pro-display">
+    <!-- Inter fallback font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="style.css">
@@ -39,14 +42,14 @@
 
         <main>
             <section id="hero" class="container mx-auto px-6 md:px-12 min-h-screen flex flex-col justify-center items-center text-center py-20 relative">
-                <h1 class="hero-text">
+                <h1 class="hero-text parallax" data-speed="-0.05">
                     <div class="line-wrap"><span class="gsap-reveal-line">Think</span></div>
                     <div class="line-wrap"><span class="gsap-reveal-line">Different.</span></div>
                 </h1>
-                <p class="mt-8 max-w-2xl text-lg md:text-xl text-text-secondary gsap-reveal">
+                <p class="mt-8 max-w-2xl text-lg md:text-xl text-text-secondary gsap-reveal parallax" data-speed="-0.02">
                     A computer scientist and community builder, shaping impactful experiences where technology and humanity connect.
                 </p>
-                <div class="mt-12 flex space-x-4 gsap-reveal">
+                <div class="mt-12 flex space-x-4 gsap-reveal parallax" data-speed="-0.01">
                     <a href="#impact" class="cta-button inline-block text-lg font-semibold rounded-full px-8 py-4">
                         View My Work
                     </a>
@@ -60,7 +63,7 @@
 
             <section id="about" class="container mx-auto px-6 md:px-12 py-24 md:py-40">
                 <div class="about-section">
-                    <img src="https://via.placeholder.com/200" alt="Mohammad Abu Koush" class="about-image gsap-reveal">
+                    <img src="images/profile.jpg" alt="Mohammad Abu Koush" class="about-image gsap-reveal">
                     <div class="gsap-reveal">
                         <h2 class="section-title mb-8">About Me.</h2>
                         <p class="text-xl text-text-secondary leading-relaxed">I am a passionate computer scientist with a love for building communities and creating impactful digital experiences. My journey in technology is driven by a desire to connect people and ideas, and I am constantly exploring new ways to use technology to make a positive impact on the world.</p>
@@ -142,7 +145,7 @@
                     <p class="text-xl md:text-2xl text-text-secondary max-w-3xl mx-auto mb-12 gsap-reveal">My role with TEDx is more than organizing—it's about creating a space for brilliance to shine. A platform for sharing ideas that spark dialogue and inspire action.</p>
                 </div>
                 <div class="stage-grid">
-                    <div class="stage-item large gsap-reveal" style="background-image: url('https://via.placeholder.com/800x600');"></div>
+                    <div class="stage-item large gsap-reveal" style="background-image: url('images/profile.jpg');"></div>
                     <div class="stage-item gsap-reveal" style="background-image: url('https://via.placeholder.com/400x300');"></div>
                     <div class="stage-item gsap-reveal" style="background-image: url('https://via.placeholder.com/400x300');"></div>
                 </div>
